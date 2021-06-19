@@ -1,26 +1,41 @@
 {
-  "name": "~TODO~",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
-    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --write --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "@sveltejs/kit": "next",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-svelte3": "^3.2.0",
-    "prettier": "~2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "svelte": "^3.34.0",
-    "svelte-preprocess": "^4.0.0",
-    "tslib": "^2.0.0",
-    "typescript": "^4.0.0"
-  },
-  "type": "module"
+	"name": "~TODO~",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@babel/core": "^7.14.3",
+		"@sveltejs/kit": "next",
+		"@typescript-eslint/eslint-plugin": "^4.19.0",
+		"@typescript-eslint/parser": "^4.19.0",
+		"babel-loader": "^8.2.2",
+		"eslint": "^7.22.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.2.0",
+		"svelte": "^3.38.2",
+		"svelte-loader": "^3.1.1",
+		"svelte-preprocess": "^4.0.0",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0",
+		"dayjs": "^1.10.4",
+		"js-yaml": "^3.14.1",
+		"rehype-highlight": "^4.1.0",
+		"rehype-stringify": "^8.0.0",
+		"remark-frontmatter": "^3.0.0",
+		"remark-gfm": "^1.0.0",
+		"remark-parse": "^9.0.0",
+		"remark-rehype": "^8.0.0",
+		"to-vfile": "^6.1.0",
+		"unified": "^9.2.1",
+		"@sveltejs/adapter-vercel": "next"
+	},
+	"type": "module",
+	"dependencies": {}
 }
