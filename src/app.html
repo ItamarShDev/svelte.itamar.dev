@@ -4,8 +4,118 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="title" content="Itamar Sharify" />
+		<meta name="description" content="Itamar Sharify's personal website" />
+
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://itamar.tech/" />
+		<meta property="og:title" content="Itamar Sharify" />
+		<meta property="og:description" content="Itamar Sharify's personal website" />
+		<meta property="og:image" content="https://itamar.tech/images/meta-image.png" />
+		<meta property="og:site_name" content="Itamar Sharify's personal website" />
+		<meta name="twitter:image:alt" content="Itamar Sharify's personal websitee" />
+
+		<meta property="twitter:card" content="website" />
+		<meta property="twitter:title" content="Itamar Sharify" />
+		<meta property="twitter:url" content="https://itamar.tech/" />
+		<meta property="twitter:description" content="Itamar Sharify's personal website" />
+		<meta property="twitter:image" content="https://itamar.tech/images/meta-image.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;0,500;1,400&family=Codystar&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap"
+		/>
 		%svelte.head%
 	</head>
+	<style>
+		body {
+			font-size: 10px;
+			--bg: hsl(216, 18.1%, 16.3%);
+			--modalbg: hsl(216, 18.1%, 16.3%);
+			--main: hsl(214.1, 32.8%, 26.3%);
+			--text: hsl(0, 0%, 93.3%);
+			--subtext: hsla(0, 0%, 93.3%, 0.7);
+			--headertext: hsl(177.6, 100%, 50%);
+			--header: hsl(182.7, 100%, 35.5%);
+			--paragraph: hsl(205.7, 51.9%, 89.4%);
+			--decorations: hsl(182.7, 100%, 35.5%);
+			--hoverdecorations: hsla(182.7, 100%, 35.5%, 0.1);
+			--inputs: hsla(183, 100%, 35%, 0.2);
+			--link: hsl(0, 0%, 100%);
+			--charts: '#00fff5';
+		}
+		*,
+		*::before,
+		*::after {
+			box-sizing: inherit;
+		}
+		html {
+			font-size: 10px;
+			box-sizing: border-box;
+			scroll-behavior: smooth;
+		}
+
+		body {
+			background-color: var(--bg);
+			color: var(--text);
+			padding: 0;
+			margin: 0;
+			font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+				Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		}
+		#main-view {
+			display: grid;
+			min-height: 100vh;
+			grid-template-rows: 6rem 1fr;
+		}
+
+		a {
+			color: var(--link);
+			scroll-margin-top: 6.5rem;
+		}
+
+		h1 {
+			font-size: 4rem;
+		}
+		h2 {
+			font-size: 3rem;
+		}
+		h3 {
+			font-size: 2.5rem;
+		}
+		h4 {
+			font-size: 2rem;
+		}
+		h5 {
+			font-size: 1.8rem;
+		}
+		h6 {
+			font-size: 1.2rem;
+		}
+
+		.logo {
+			height: 1rem;
+		}
+	</style>
 	<body>
 		<div id="svelte">%svelte.body%</div>
 	</body>
